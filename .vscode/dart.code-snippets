@@ -1,0 +1,12 @@
+{
+  "Cubit class": {
+    "scope": "dart",
+    "prefix": "cubit",
+    "description": "Create a Cubit class",
+    "body": [
+      "class ${1:Name}Cubit extends Cubit<${1:Name}State> {",
+      "  ${1:Name}Cubit() : super(${1:Name}Initial());",
+      "}"
+    ]
+  }
+}
